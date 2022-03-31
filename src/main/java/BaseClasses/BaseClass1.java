@@ -10,15 +10,10 @@ public class BaseClass1
 	{    if(a.equals("chrome"))
 	{
 		
-		
-		//syso
-		   //syso
-		//syso
-		
 		System.setProperty("webdriver.chrome.driver","src\\main\\resources\\Browsers\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://flipkart.com/");
-		driver.manage().window().maximize();
+		//driver.manage().window().maximize();
 		
 		return driver;}
 		
@@ -27,7 +22,7 @@ public class BaseClass1
 		System.setProperty("webdriver.gecko.driver","src\\main\\resources\\Browsers\\x\\geckodriver.exe");
 		WebDriver driver=new FirefoxDriver();
 		driver.get("https://flipkart.com/");
-		driver.manage().window().maximize();
+		//driver.manage().window().maximize();
 		
 		return driver;
 	}}
