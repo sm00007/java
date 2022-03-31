@@ -9,6 +9,7 @@ public class BaseClass1
 	public static WebDriver getWebDriver(String a)
 	{    if(a.equals("chrome"))
 	{
+		   
 		
 		System.setProperty("webdriver.chrome.driver","src\\main\\resources\\Browsers\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
